@@ -1,22 +1,50 @@
 .topbar{
   
     background-color:black;
-   
+
     overflow: hidden;
 }
 .topbar a{
-    font-size: 17px;
+    font-size: 22px;
     float: left;
+    
+    transition: all .3s ease-in-out;
+    
     text-decoration: none;
     text-align: center;
     color: white;
-    padding: 14px 28px;
+    padding: 20px 30px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 .topbar a:hover{
-    
+    transform: scale(1.4);
+  
     color: red;
+   
 }
 .topbar a.active{
     color:red ;
+}
+.topbar img{
+    opacity: 0.9;
+
+}
+.topbar img:hover{
+    opacity:1.0;
+}
+.topbarp{
+    color: white;
+    font-size: 20px;
+    float: right;
+    padding-right: 50px;
+}
+body{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/images/afilogo.png");
+
+    background-repeat: no-repeat;
+  
+  
+    background-attachment: fixed;
+    background-position: 450px 150px;
+    
 }
