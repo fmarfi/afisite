@@ -1,3 +1,13 @@
+body{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/images/afilogo.png");
+
+    background-repeat: no-repeat;
+  
+  
+    background-attachment: fixed;
+    background-position: 450px 150px;
+    
+}
 .topbar{
   
     background-color:black;
@@ -38,16 +48,7 @@
     float: right;
     padding-right: 50px;
 }
-body{
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/images/afilogo.png");
 
-    background-repeat: no-repeat;
-  
-  
-    background-attachment: fixed;
-    background-position: 450px 150px;
-    
-}
 .aboutheader01{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
